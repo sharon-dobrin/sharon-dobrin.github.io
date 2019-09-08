@@ -1,14 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-  color: black;
+  color: #555;
   margin: 0;
 
   font-family: 'Montserrat', sans-serif;
 }
 
 #header {
-  background-color: #2B8BEB;
+  background-color: #1abc9c;
   height: 150px;
   line-height: 150px
 }
@@ -71,7 +71,7 @@ body {
 }
 
 a {
-  color: #2B8BEB;
+  color: #1abc9c;
   text-decoration: none;
 }
 
@@ -115,39 +115,4 @@ h1, h2, h3, h4 {
 
 p {
   line-height: 1.5;
-}
-
-input#submitButton {
-  background-color: #D2D2D2;
-}
-
-input#submitButton:hover {
-  color: #F6A623;
-}
-
-.form_part {
-  margin-bottom: 20px;
-  border: 1px solid;
-  border-radius: 20px;
-  border-color: #2B8BEB;
-  padding: 20px;
-}
-
-textarea {
-  align: center;
-  width: 90%;
-  border: 1px solid;
-  border-radius: 5px;
-}
-
-input[type=text] {
-  width: 300px;
-  border: 1px solid;
-  border-radius: 5px;
-  height: 20px;
-}
-
-input[type=number] {
-  border: 1px solid;
-  border-radius: 5px;
 }
