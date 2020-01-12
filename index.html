@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dein Lernplan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="icon" type="image/png" href="(logo.png">
+    <script type="text/javascript">
+
+      function togglemenu(){
+        document.getElementById('sidebar').classList.toggle('active');
+      }
+    </script>
+  </head>
+  <body>
+    <div id="sidebar" onclick="togglemenu()">
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="order.php">Lernplan bestellen</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </div>
+
+
+    <div id="titel">
+      <h1>Dein Lernplan</h1>
+      Lass dir jetzt deinen ganz Individuellen Lernplan erstellen
+    </div>
+
+    <div id="footer">
+      <ul>
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+        <li><a href="agb.html">AGB's</a></li>
+      </ul>
+    </div>
+
+  <a id="up-button" class="internal-link" href="#titel"></a>
+  </body>
+</html>

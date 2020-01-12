@@ -1,0 +1,208 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  background: url(lernen.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  color: #fff;
+}
+
+#sidebar {
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  left: -30%;
+  background-color: black;
+}
+
+#sidebar li {
+  font-size: 25px;
+  padding: 30px;
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+.toggle-btn {
+  position: absolute;
+  left: 105%;
+  top: 15px;
+}
+
+.toggle-btn span {
+  display: block;
+  background-color: black;
+  width: 30px;
+  height: 5px;
+  margin: 3px;
+}
+
+#sidebar.active {
+  left: 0%;
+}
+
+#titel {
+  padding-top: 150px;
+  font-size: 50px;
+  text-align: center;
+}
+
+ a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #8A084B;
+  font-size: 30px;
+}
+
+
+::-webkit-scrollbar{
+  background: #ddd;
+  width: 14px;
+}
+::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 10px #00000070;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(125deg,#3498db,#34495e,#6600ff);
+  border-radius: 10px;
+}
+
+.order {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#order {
+  padding: 15px;
+}
+
+input {
+  margin: 10px;
+  border-radius: 30px;
+  border: 0px;
+}
+
+input:focus {
+  background-color: #8A084B;
+}
+
+form {
+  margin: 10px;
+  display: inline-block;
+  margin-left: 18px;
+  margin-right: -1px;
+
+}
+
+select {
+  width: 163px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+select:focus {
+  background-color: #8A084B;
+}
+
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+
+option {
+  color: #fff;
+}
+
+#submit {
+  width: 150px;
+  background-color: black;
+  color: #fff;
+}
+
+#submit:hover {
+  background-color: #8A084B;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+textarea {
+  width: 350px;
+}
+
+#yourBtn {
+  color: #fff;
+  top: 150px;
+  font-family: calibri;
+  width: 150px;
+  padding: 10px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  text-align: center;
+  background-color: black;
+  cursor: pointer;
+}
+
+#footer {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 25%;
+}
+
+#footer a {
+  color: black;
+  font-size: 20px;
+}
+
+#footer a:hover {
+  color: #8A084B;
+  font-size: 25px;
+}
+
+.impressum {
+  padding: 10px;
+
+}
+
+/* Floating up button */
+#up-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background: #8A084B;
+  border-radius: 50%;
+  outline: 0;
+  box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 200ms;
+}
+
+#up-button:after {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 19px;
+  width: 19px;
+  height: 19px;
+  border: 5px solid white;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  transform: rotate(45deg);
+}
+
+#up-button.hidden { transform: scale(0); }
