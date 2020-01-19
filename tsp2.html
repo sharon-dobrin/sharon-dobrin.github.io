@@ -1,0 +1,765 @@
+<!doctype html>
+<html>
+ <head>
+ <meta charset="utf-8" />
+  <title>Tierschutzpartei Berlin</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+  <body>
+     <h1>
+     <font color= „#5B6FF6“>Anonyme Umfrage</font>
+     </h1>
+     <h3>
+      Mit der folgenden Umfrage wollen wir in erfahrung bringen wie es um die Produktivität des LV Berlin steht und was getan werden muss um diese noch zu verbessern.<br>
+      Wir bitten Sie daher sich 5-10 Minuten Zeit zu nehmen um diese sorgfältig auszufüllen.
+     </h3>
+
+ <div class="form_part">
+    <p><h4>Beginnen wir mit einigen Allgemeinen Informationen</h4></p>
+
+  <ol>
+   <li>Geschlecht</li>
+
+     <label for="männl">Männlich</label>
+        <input type="radio" id="männl" name="geschlecht" value="0"><br>
+     <label for="weibl">Weiblich</label>
+        <input type="radio" id="weibl" name="geschlecht" value="1"><br>
+     <label for="divers">Divers</label>
+        <input type="radio" id="divers" name="geschlecht" value="2"><br>
+<p>
+
+
+   <li>Alter</li>
+
+       <label for="alter">
+         Alter:
+        <input id="groesse" type="number" min="16" max="100" step="1" value="18">
+         Jahre
+        </label>
+</p>
+<p>
+
+   <li>In welchen Bezirk wohnen sie zurzeit?</li>
+
+   <form action="select.html">
+    <label>Bezirk:
+     <select name="bezirk" size="1">
+      <option>Charlottenburg-Wilmersdorf</option>
+      <option>Friedrichshain-Kreuzberg</option>
+      <option>Lichtenberg</option>
+      <option>Marzahn-Hellersdorf</option>
+      <option>Mitte</option>
+      <option>Neukölln</option>
+      <option>Pankow</option>
+      <option>Reinickendorf</option>
+      <option>Spandau</option>
+      <option>Steglitz-Zehlendorf</option>
+      <option>Tempelhof-Schöneberg</option>
+      <option>Treptow-Köpenick</option>
+     </select>
+    </label>
+   </form>
+</p>
+<p>
+
+  <li>Familienstand</li>
+
+    <input type="radio" id="ld" name="Familienstand" value="Ledig">
+     <label for="ld"> Ledig</label>
+    <input type="radio" id="vh" name="Familienstand" value="Verheiratet">
+     <label for="vh"> Verheiratet</label>
+    <input type="radio" id="vw" name="Familienstand" value="Verwitwet">
+     <label for="vw"> Verwitwet</label>
+    <input type="radio" id="gs" name="Familienstand" value="Geschieden">
+     <label for="gs"> Geschieden</label>
+</p>
+<p>
+
+   <li>Anzahl an Kindern</li>
+
+       <label for="kinder">
+         Kinder:
+        <input id="kinder" type="number" min="0" max="10" step="1" value="0">
+        </label>
+
+</p>
+<p>
+
+  <li>Höchster aktueller Bildungsstand</li>
+
+    <form action="select.html">
+     <select name="bildung" size="1">
+      <option>Ohne Abschluss</option>
+      <option>Hauptschulabschluss/BBR</option>
+      <option>Mitlererschulabschluss/MSA</option>
+      <option>Allgemeinehochschulreife/Abitur</option>
+      <option>Bachlor</option>
+      <option>Master</option>
+      <option>Magister</option>
+      <option>Doktor</option>
+     </select>
+    </form>
+</p>
+<p>
+
+        <label>
+          <input type="checkbox" name="bildung" value="noch in Ausbildung">
+          Ich befinde mich momentan in Ausbildung zu einem höheren Bildungsstand
+        </label>
+
+</p>
+
+
+<p>
+
+ <li>Aktuelle Beschäftigung</li>
+
+<form action="select.html">
+  <label>Art der Beschäftigung:
+    <select name="Beruf" size="1">
+      <option>Ohne Beschäftigung</option>
+      <option>Schüler/in</option>
+      <option>In Ausbildung</option>
+      <option>Student/in</option>
+      <option>Arbeitnehmer Verhältniss</option>
+      <option>Selbstständig</option>
+    </select>
+  </label>
+
+</p>
+
+
+<p>
+
+
+  <li>Durchschnitliche Arbeitszeit</li>
+
+     <label for="arbeit">
+         Pro Woche:
+        <input id="arbeit" type="number" min="0" max="85" step="5" value="0">
+        </label>
+
+</p>
+
+
+  </ol>
+
+ </div>
+
+
+ <div class="form_part">
+<p>
+
+ <h4>Arbeit die Sie inerhalb der Partei gerne übernehmen würden</h4>
+
+</p>
+  <ol>
+<p>
+
+
+  <li>Welche Aufgabenbereiche würden Sie interessiren?</li>
+
+        <label>
+          <input type="checkbox" name="aufgabenbereiche" value="Plakate">
+          Plakate auf- und abhängen
+        </label> <br>
+        <label>
+          <input type="checkbox" name="aufgabenbereiche" value="Straße">
+          Straßenaktivismus (z.B. Teilnahme an Infotischen, verteilen von Flyern, Unterschriften sammeln, etc.)
+        </label> <br>
+        <label>
+          <input type="checkbox" name="aufgabenbereiche" value="Gespräch">
+          Persönliche Gespräche mit Menschen
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Schriftverkehr">
+          Schriftverkehr mit Menschen
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Vorträge">
+          Vorträge vorbereiten und halten
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Reden">
+          Reden vorbereiten und halten
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Motivation">
+          Motivation von Mitgliedern
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Koordination">
+          Koordination von Mitgliedern
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Kamera">
+          Für die von uns produzierten Videos vor der Kamera stehen
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Ton">
+          Texte einsprechen
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Video">
+          Videobearbeitung
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Skript">
+          Drehbücher schreiben
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Texte">
+          Längere politische Texte schreiben (z.B. für unseren Newsletter)
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="kurze Texte">
+          Kurze Texte schreiben (z.B. für Social media)
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Mods">
+          Diskussionen moderieren
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Social media">
+          Unsere Social media Kanäle betreuen
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Protokolle">
+          Protokolle schreiben
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Grafik">
+          Grafikdesign
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Bürokratie">
+          Bürokratie und Verwaltungsarbeit am PC
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Jura">
+          Juristisches
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Informatik">
+          Infomatik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Kreativ">
+          Kreative Arbeiten (z.B. Gestalltung von Flyern, Buttons, T-Shirts, etc.)
+        </label> <br>
+
+</p>
+<p>
+
+  <li>Für welche Themenbereiche würden Sie diese Aufgaben gerne übernehmen?</li>
+
+          <input type="checkbox" name="aufgabenbereiche" value="Social">
+          Sozialpolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Umwelt">
+          Umweltpolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Tiere">
+          Tierschutz
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Landwitschaft">
+          Agrarpolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Gesundheit">
+          Gesundheitspolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Bildung">
+          Bildungspolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Jagd">
+          Jagd
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Tierversuche">
+          Tierversuche
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Familie">
+          Familienpolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Asyl">
+          Asylpolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Außen">
+          Außenpolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Justiz">
+          Justiz
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Wohnen">
+          Wohnen
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Wirtschaft">
+          Wirtschaft
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Verkehr">
+          Verkehr
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Energie">
+          Energie
+        </label> <br>
+
+</p>
+<p>
+
+
+  <li>Wie viele Stunden würden Sie gerne für die Arbeit im LV Berlin aufbringen?</li>
+
+     <label for="arbeit lv">
+         Pro Woche:
+        <input id="arbeit lv" type="number" min="0" max="85" step="1" value="0">
+        </label>
+
+</p>
+<p>
+
+  <li>Würden Sie gerne (regelmäßig) an Treffen teilnehmen?</li>
+<form action="select.html">
+<select name="treffen.r" size="1">
+  <label>
+   <option>Ja</option>
+   <option>Nein</option>
+   <option>Ich bin mir noch nicht sicher</option>
+  </select>
+  </label>
+
+</p>
+</ol>
+
+ </div>
+ <div class="form_part">
+
+<p>
+
+ <h4>Arbeit in den letzten 3 Monaten</h4>
+
+</p>
+<ol>
+<p>
+
+
+
+  <li>In welche Aufgabenbereiche haben Sie in den letzten 3 Monaten gearbeitet? </li>
+
+        <label>
+          <input type="checkbox" name="aufgabenbereiche" value="Plakate">
+          Plakate auf- und abhängen
+        </label> <br>
+        <label>
+          <input type="checkbox" name="aufgabenbereiche" value="Straße">
+          Straßenaktivismus (z.B. Teilnahme an Infotischen, verteilen von Flyern, Unterschriften sammeln, etc.)
+        </label> <br>
+        <label>
+          <input type="checkbox" name="aufgabenbereiche" value="Gespräch">
+          Persönliche Gespräche mit Menschen
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Schriftverkehr">
+          Schriftverkehr mit Menschen
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Vorträge">
+          Vorträge vorbereiten und halten
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Reden">
+          Reden vorbereiten und halten
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Motivation">
+          Motivation von Mitgliedern
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Koordination">
+          Koordination von Mitgliedern
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Kamera">
+          Für die von uns produzierten Videos vor der Kamera stehen
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Ton">
+          Texte einsprechen
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Video">
+          Videobearbeitung
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Skript">
+          Drehbücher schreiben
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Texte">
+          Längere politische Texte schreiben (z.B. für unseren Newsletter)
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="kurze Texte">
+          Kurze Texte schreiben (z.B. für Social media)
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Mods">
+          Diskussionen moderieren
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Social media">
+          Unsere Social media Kanäle betreuen
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Protokolle">
+          Protokolle schreiben
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Grafik">
+          Grafikdesign
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Bürokratie">
+          Bürokratie und Verwaltungsarbeit am PC
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Jura">
+          Juristisches
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Informatik">
+          Infomatik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Kreativ">
+          Kreative Arbeiten (z.B. Gestalltung von Flyern, Buttons, T-Shirts, etc.)
+        </label> <br>
+
+</p>
+<p>
+
+  <li>Für welche Themenbereiche haben Sie sich in den letzten 3 Monaten eingesetzt?</li>
+
+          <input type="checkbox" name="aufgabenbereiche" value="Social">
+          Sozialpolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Umwelt">
+          Umweltpolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Tiere">
+          Tierschutz
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Landwitschaft">
+          Agrarpolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Gesundheit">
+          Gesundheitspolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Bildung">
+          Bildungspolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Jagd">
+          Jagd
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Tierversuche">
+          Tierversuche
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Familie">
+          Familienpolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Asyl">
+          Asylpolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Außen">
+          Außenpolitik
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Justiz">
+          Justiz
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Wohnen">
+          Wohnen
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Wirtschaft">
+          Wirtschaft
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Verkehr">
+          Verkehr
+        </label> <br>
+          <input type="checkbox" name="aufgabenbereiche" value="Energie">
+          Energie
+        </label> <br>
+
+</p>
+<p>
+
+
+  <li>Wie viele Stunden haben Sie in den Letzten 3 Monaten für die Arbeit im LV Berlin aufgebracht?</li>
+
+     <label for="arbeit lv">
+         Pro Woche:
+        <input id="arbeit lv" type="number" min="0" max="85" step="1" value="0">
+        </label>
+
+</p>
+<p>
+
+  <li>Haben Sie in den Letzten 3 Monaten (regelmäßig) an Treffen teilgenommen?</li>
+<form action="select.html">
+<select name="treffen" size="1">
+  <label>
+   <option>Ja</option>
+   <option>Nein</option>
+   </select>
+  </label>
+
+</p>
+  </ol>
+
+ </div>
+
+ <div class="form_part">
+<p>
+
+
+   <h4>Diferenzen und Wünsche</h4>
+
+
+</p>
+<ol>
+<p>
+
+
+  <li>Nun kam es wohlmöglich zu unterschieden zwischen der Arbeit, die Sie gerne leiste würden und der Arbeit, die Sie geleistet haben.<br>
+      Nennen Sie bitte mögliche gründe hierfür.</li>
+
+          <input type="checkbox" name="gründe" value="zeit">
+          Ich finde oft nicht die Zeit
+        </label> <br>
+          <input type="checkbox" name="gründe" value="spaß">
+          Die Aufgaben machen mir keinen Spaß
+        </label> <br>
+          <input type="checkbox" name="gründe" value="sinn">
+          Ich ich sehe keinen Sinn in den Aufgaben
+        </label> <br>
+          <input type="checkbox" name="gründe" value="besetzt">
+          Ich glaube viele der Aufgaben werden schon von anderen übernommen
+        </label> <br>
+          <input type="checkbox" name="gründe" value="inkompetent">
+          Ich halte mich selbst nicht für qualifiziert solche (komplexe) Aufgaben zu übernehmen
+        </label> <br>
+          <input type="checkbox" name="gründe" value="kompetent">
+          Ich halte mich selbst für überqualifiziert solche Aufgaben zu übernehmen
+        </label> <br>
+          <input type="checkbox" name="gründe" value="einführung">
+          Ich habe keine oder nur eine ungenügende Einführung für die Aufgaben erhalten
+        </label> <br>
+          <input type="checkbox" name="gründe" value="passend">
+          Ich konnte bisher keine Aufgabe finden, die den von mir gemachten Angaben entspricht
+        </label> <br>
+    <label for="sonst.">Nennen sie weitere Gründe:
+      <input type="text" id="sonst." name="sonst.">
+    </label>
+
+</p>
+
+<p>
+
+
+
+
+	<li>Was müsste geschen damit Sie öfter Aufgaben für den LV Berlin erlediegen würden?</li>
+
+	<div class="center_container">
+				<textarea name="comment"></textarea>
+	</div>
+
+</p>
+
+<p>
+
+  <li>In welchen Bezirken sollten ihrer meinung nach mehr Veranstaltungen(z.B. Infotische, Stammtische, etc.) stattfinden?</li>
+
+
+          <input type="checkbox" name="wünsche.bezirke" value="char.w">
+          Charlottenburg-Wilmersdorf
+        </label> <br>
+          <input type="checkbox" name="wünsche.bezirke" value="fiedrichs.">
+          Friedrichshain-Kreuzberg
+        </label> <br>
+          <input type="checkbox" name="wünsche.bezirke" value="licht.">
+          Lichtenberg
+        </label> <br>
+          <input type="checkbox" name="wünsche.bezirke" value="marz.">
+          Marzahn-Hellersdorf
+        </label> <br>
+          <input type="checkbox" name="wünsche.bezirke" value="mit.">
+          Mitte
+        </label> <br>
+          <input type="checkbox" name="wünsche.bezirke" value="neuk.">
+          Neuköln
+        </label> <br>
+          <input type="checkbox" name="wünsche.bezirke" value="pank.">
+          Pankow
+        </label> <br>
+          <input type="checkbox" name="wünsche.bezirke" value="rien.">
+          Reinickendorf
+        </label> <br>
+          <input type="checkbox" name="wünsche.bezirke" value="span">
+          Spandau
+        </label> <br>
+          <input type="checkbox" name="wünsche.bezirke" value="steg.zehl">
+          Steglitz-Zehlendorf
+        </label> <br>
+          <input type="checkbox" name="wünsche.bezirke" value="trep.köp">
+          Tempelhof-Schöneberg
+        </label> <br>
+          <input type="checkbox" name="wünsche.bezirke" value="trep.köp">
+          Treptow-Köpenick
+        </label> <br>
+
+
+</p>
+
+<p>
+
+
+
+
+	<li>Weitere Anmerkungen oder Wünsche</li>
+
+	<div class="center_container">
+				<textarea name="comment"></textarea>
+	</div>
+
+</p>
+
+  </ol>
+
+ </div>
+ <div class="form_part">
+
+<p>
+
+ <h4> Zufriedenheit</h4>
+
+</p>
+<p> <h6>0=Gar nicht Zufrieden, 10=Sehr Zufrieden</h6></p>
+<p>
+
+  <ol>
+
+   <li>Wie zufrieden sind Sie mit ihrer eigenen Arbeit im LV Berlin?</li>
+
+       <label for="zufrieden">
+        <input id="zufriedeb" type="number" min="0" max="10" step="1" value="0">
+        </label><br>
+
+    <label for="begruendung">Begründung(optional):
+      <input type="text" id="begruendung" name="begruendung">
+    </label>
+</p>
+<p>
+
+   <li>Wie zufrieden sind Sie mit der Arbeit von anderen im LV Berlin?</li>
+
+       <label for="zufrieden">
+        <input id="zufriedeb" type="number" min="0" max="10" step="1" value="0">
+        </label><br>
+
+    <label for="begruendung">Begründung(optional):
+      <input type="text" id="begruendung" name="begruendung">
+    </label>
+</p>
+<p>
+
+   <li>Wie zufrieden sind Sie mit der Teamfähigkeit im LV Berlin?</li>
+
+       <label for="zufrieden">
+        <input id="zufriedeb" type="number" min="0" max="10" step="1" value="0">
+        </label><br>
+
+    <label for="begruendung">Begründung(optional):
+      <input type="text" id="begruendung" name="begruendung">
+    </label>
+</p>
+<p>
+
+   <li>Wie zufrieden sind Sie mit der Arbeit des Vorstandes im LV Berlin?</li>
+
+       <label for="zufrieden">
+        <input id="zufriedeb" type="number" min="0" max="10" step="1" value="0">
+        </label><br>
+
+    <label for="begruendung">Begründung(optional):
+      <input type="text" id="begruendung" name="begruendung">
+    </label>
+</p>
+<p>
+
+   <li>Wie zufrieden sind Sie mit der Koordinatin im LV Berlin?</li>
+
+       <label for="zufrieden">
+        <input id="zufriedeb" type="number" min="0" max="10" step="1" value="0">
+        </label><br>
+
+    <label for="begruendung">Begründung(optional):
+      <input type="text" id="begruendung" name="begruendung">
+    </label>
+</p>
+<p>
+
+   <li>Wie zufrieden sind Sie mit der Außenwirkung des LV Berlin?</li>
+
+       <label for="zufrieden">
+        <input id="zufriedeb" type="number" min="0" max="10" step="1" value="0">
+        </label><br>
+
+    <label for="begruendung">Begründung(optional):
+      <input type="text" id="begruendung" name="begruendung">
+    </label>
+</p>
+<p>
+
+   <li>Wie zufrieden sind Sie mit der Öffentlichkeitsarbeit des LV Berlin?</li>
+
+       <label for="zufrieden">
+        <input id="zufriedeb" type="number" min="0" max="10" step="1" value="0">
+        </label><br>
+
+    <label for="begruendung">Begründung(optional):
+      <input type="text" id="begruendung" name="begruendung">
+    </label>
+</p>
+<p>
+
+    <li>Was würden Sie zukünftig verbessern wollen?</li>
+
+          <input type="checkbox" name="Verbesserung" value="kommunikation">
+          Kommunikation muss effizienter werden
+        </label><br>
+
+          <input type="checkbox" name="Verbesserung" value="aufgaben.klar">
+          Aufgabenverteilung muss klarer werden
+        </label><br>
+
+          <input type="checkbox" name="Verbesserung" value="mehr.hierachie">
+          Mehr Hierarchie
+        </label><br>
+
+          <input type="checkbox" name="Verbesserung" value="mehr.presse">
+          Bessere zusammenarbeit mit der Presse
+        </label><br>
+
+    <label for="sonst.">Sonstiges:
+      <input type="text" id="sonst" name="sonst">
+    </label>
+
+</p>
+<p>
+
+
+
+
+	<li>Was müsste geschen damit Sie generl zufridener mit LV Berlin wären?</li>
+
+	<div class="center_container">
+				<textarea name="comment"></textarea>
+	</div>
+
+</p>
+
+ </ol>
+ </div>
+
+
+
+ <div class="center_container">
+			<p class="dataprotection">
+				<input type="checkbox" id="dataprotection" name="dataprotection" value="dataprotection" required="required" />
+				<label for="dataprotection">
+					Ich bin damit einverstanden, dass die Partei Mensch Umwelt Tierschutz, meine Angaben zur Emperischen Datenerhebung nutzt.
+                                        Ich kann mein Einverständnis ohne für mich nachteilige Folgen verweigern bzw. jederzeit mit Wirkung für
+                                        die Zukunft widerrufen, Einsicht in die gespeicherten Daten nehmen und deren Löschung im rechtlich möglichen Rahmen verlangen. Weitere Informationen
+                                        gibt es in der <a target="_blank" rel="noopener" href="https://www.tierschutzpartei.de/datenschutzerklaerung/">Da&shy;ten&shy;schutz&shy;er&shy;klä&shy;rung</a>.
+				</label>
+			</p>
+
+			<input id="submitButton" type="submit" value="Absenden" />
+ </div>
+
+
+
+
+
+
+
+
+</p>
+
+  </ol>
+
+ </div>
+
+
+  </body>
+</html>
